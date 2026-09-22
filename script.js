@@ -15,7 +15,8 @@ document.addEventListener("click", function (e) {
 
 // Fetching Data
 
-const gistUrl = "https://gist.githubusercontent.com/fanhdt/c79a84879456e2832d88bf3e1020895a/raw/0c38afd136e1176bdc6de54e06ee3a1bd5f6049d/course.json";
+const gistUrl =
+  "https://raw.githubusercontent.com/shafirafirzha/bloomie-assets/refs/heads/main/course.json";
 
 async function getCourses() {
   try {
@@ -43,10 +44,10 @@ function displayCourses(courses) {
             <span>${course.category}</span>
             <h3>${course.title}</h3>
             <p>${course.description}</p>
-            <small>Mentor: ${course.mentor}</small>
+            <small>Handmade with love ${course.mentor}</small>
             <strong>${course.price}</strong>
             <a href="course.html?slug=${course.slug}">
-            Lihat Kelas
+            Lihat Produk
             </a>
         </div>
     </div>

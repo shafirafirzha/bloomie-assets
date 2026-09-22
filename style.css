@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #44b4ba;
+  --primary-color: #eea7b8;
   --secondary-color: #d1d3d4;
-  --bg-color: #0a0a0a;
+  --bg-color: #fae2e7;
 }
 
 * {
@@ -20,7 +20,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
-  color: white;
+  color: #55652f;
   min-height: 2000px;
 }
 
@@ -42,15 +42,15 @@ body {
 .navbar .logo-navbar {
   font-size: 2rem;
   font-weight: bold;
-  color: white;
+  color: #eea7b8;
 }
 
 .navbar .logo-navbar span {
-  color: #44b4ba;
+  color: #55652f;
 }
 
 .navbar .navbar-nav a {
-  color: white;
+  color: #55652f;
   display: inline-block;
   font-size: 1.3rem;
   margin: 0 1rem;
@@ -74,7 +74,7 @@ body {
 }
 
 .navbar .navbar-extra a {
-  color: white;
+  color: #55652f;
   margin: 0 0.5rem;
 }
 
@@ -99,12 +99,12 @@ body {
 .hero .content {
   flex: 1;
   max-width: 60rem;
-  color: white;
+  color: #55652f;
 }
 
 .hero .content h1 {
   font-size: 4em;
-  color: white;
+  color: #55652f;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
@@ -112,9 +112,9 @@ body {
   font-size: 1.5rem;
   margin-top: 1rem;
   line-height: 1.5;
-  font-weight: 100;
+  font-weight: 300;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  color: white;
+  color: #55652f;
 }
 
 .hero .content .cta {
@@ -189,7 +189,7 @@ body {
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -204,7 +204,7 @@ body {
   text-align: center;
   max-width: 30rem;
   margin: auto;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -217,7 +217,7 @@ body {
 
 .menu-card {
   background-color: var(--bg-color);
-  border: 1px solid #222;
+  border: 3px solid #55652f;
   border-radius: 1rem;
   overflow: hidden;
   transition: 0.3 ease;
@@ -226,7 +226,7 @@ body {
 .menu-card:hover {
   transform: translateY(-2px);
   border-color: var(--primary-color);
-  box-shadow: 0 10px 30px rgba(68, 180, 186, 0.15);
+  box-shadow: 0 10px 30px #55652F(68, 180, 186, 0.15);
 }
 
 .menu-card img {
@@ -242,13 +242,13 @@ body {
 
 .menu-card-content span {
   display: inline-block;
-  color: white;
+  color: #55652f;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.7rem;
 }
 .menu-card-content p {
-  color: white;
+  color: #55652f;
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -260,14 +260,14 @@ body {
 
 .menu-card-content small {
   display: block;
-  color: white;
+  color: #55652f;
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 
 .menu-card-content strong {
   display: block;
-  color: white;
+  color: #55652f;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
@@ -277,7 +277,7 @@ body {
   text-align: center;
   padding: 0.8rem 1rem;
   background-color: var(--primary-color);
-  color: black;
+  color: #55652f;
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -293,7 +293,7 @@ body {
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  background-color: #55652f;
 }
 
 .contact .row .map {
@@ -349,12 +349,12 @@ footer .socials {
 }
 
 footer .socials a {
-  color: white;
+  color: #eea7b8;
   margin: 1rem;
 }
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--primary-color);
+  color: #55652f;
 }
 
 footer .links {
@@ -362,7 +362,7 @@ footer .links {
 }
 
 footer .links a {
-  color: white;
+  color: #eea7b8;
   padding: 0.7rem 1rem;
 }
 
